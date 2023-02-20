@@ -5,4 +5,5 @@ const { registration, login } = require("../controllers/auth");
 route.post("/registration", registration);
 route.post("/login", login);
 
+
 module.exports = route;
